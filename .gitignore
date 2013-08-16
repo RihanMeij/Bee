@@ -13,3 +13,5 @@ wp-content/backups/
 sitemap.xml
 sitemap.xml.gz
 /packages/jQuery.1.9.1
+packages/Twitter.Bootstrap.2.3.2/Twitter.Bootstrap.2.3.2.nuspec
+packages/Twitter.Bootstrap.2.3.2/Twitter.Bootstrap.2.3.2.nupkg
