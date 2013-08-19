@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.20617.1 PREVIEW
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "http://localhost:51479", "{4D8372B9-FA43-4E3E-A309-2DB9971AC5FE}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -27,10 +27,13 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4D8372B9-FA43-4E3E-A309-2DB9971AC5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D8372B9-FA43-4E3E-A309-2DB9971AC5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8372B9-FA43-4E3E-A309-2DB9971AC5FE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8372B9-FA43-4E3E-A309-2DB9971AC5FE}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
