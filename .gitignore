@@ -16,3 +16,7 @@ sitemap.xml.gz
 packages/Twitter.Bootstrap.2.3.2/Twitter.Bootstrap.2.3.2.nuspec
 packages/Twitter.Bootstrap.2.3.2/Twitter.Bootstrap.2.3.2.nupkg
 packages/
+/obj/
+/bin/
+TwitterCount/TwitterCount/bin/
+TwitterCount/TwitterCount/obj/
