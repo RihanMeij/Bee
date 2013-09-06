@@ -8,20 +8,29 @@
     <style>
         .MainTitleBlock {
             border: none;
-            background-color: rgba(85,183,255,0.5);
             text-align: center;
-            border-radius: 30px;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding-left:10px;
+            padding-right:10px;
+            border-radius:5px;
         }
         .navBarStyle {
             background-color: rgba(85,183,255,0.2);
         }
 
         body {
-            background-image: url(/Images/01_background.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
             margin-top:40px;
         }
+
+        .articleGutter {
+            padding:35px;
+        }
+
+        .articleBlurb {
+            padding-top:80px;
+        }
+
+       
 
     </style>
 </head>
@@ -34,76 +43,50 @@
             </ul>
         </div>
     </nav>
-    
-    <div class="container-fluid">
-        <div class="row-fluid" style="padding-top:5%">
-            <div class="span5 offset3 MainTitleBlock" >
+    <div class="hero" style="background-image: url(/Images/Spa_Resized.jpg); background-size:cover">
+        <div class="row-fluid" style="padding-top:5%; background-position: 50% 50%; height:300px; ">
+            <div class="span5 offset3 MainTitleBlock">
                 <h1>Listening to my gut</h1>
                 <h4>Sharing my experiences with living with Crohn's disease</h4>
             </div>
-
         </div>
-       
-
-        <div class="row-fluid">
-            <div class="span10 offset1">
-                <h6>My Winter Plan to stay healthy</h6>
-                <div>
-                    We’re approaching winter.
-                    The leaves are slowly turning their autumn colours and there is already a slight chill in the air.
-                    I don’t mind winter too much, but since I’m on immune suppressed medicine most of the time for my Crohn’s that means I easily pick up any available bug.
-                    I’ve never had so many colds & flu occurrences in my life.
-                    But something has to change.
-                    I can’t take immune booster supplements as they will work against my Humira medication so I can only take vitamins & minerals and look at what I’m eating and drinking.  I also feel too vulnerable to take a flu vaccine while on Humira but then again I was never a fan of flu vaccines.
-                    Found a nice article which gave me some motivation and a plan to get myself in gear and do the preparation that I need to do in order to keep my body strong and as healthy as possible this winter.
-                    My Pre-winter Boost plan so far:
-                    Try eat lots of veggies and fruit
-                    Try juicing and/or smoothies
-                    Drink honey, lemon & slice of ginger in hot water if I feel I need a boost
-                    Get ingredients for ‘the real flu shot’ as in article
-                    Vitamin D (I now take 2000 iU units a day)
-                    Zinc (I take in evenings as it can interfere with iron)
-                    Iron (take in mornings)
-                    Vit C – 1000mg dose a day
-                    Probiotics
-                    Vit B complex supplement
-                    Vit B12 injection (always have taken these)
-                    Use disinfectant spray on my hands when at work or public places.
-                    I’m going to try track what I take and do and hopefully I will notice whether this has made a difference.
-                </div>
-            </div>
-        </div>
-
-        <div class="row-fluid">
-            <div class="span10 offset1">
-                <h6>My Winter Plan to stay healthy</h6>
-                <div>
-                    We’re approaching winter.
-                    The leaves are slowly turning their autumn colours and there is already a slight chill in the air.
-                    I don’t mind winter too much, but since I’m on immune suppressed medicine most of the time for my Crohn’s that means I easily pick up any available bug.
-                    I’ve never had so many colds & flu occurrences in my life.
-                    But something has to change.
-                    I can’t take immune booster supplements as they will work against my Humira medication so I can only take vitamins & minerals and look at what I’m eating and drinking.  I also feel too vulnerable to take a flu vaccine while on Humira but then again I was never a fan of flu vaccines.
-                    Found a nice article which gave me some motivation and a plan to get myself in gear and do the preparation that I need to do in order to keep my body strong and as healthy as possible this winter.
-                    My Pre-winter Boost plan so far:
-                    Try eat lots of veggies and fruit
-                    Try juicing and/or smoothies
-                    Drink honey, lemon & slice of ginger in hot water if I feel I need a boost
-                    Get ingredients for ‘the real flu shot’ as in article
-                    Vitamin D (I now take 2000 iU units a day)
-                    Zinc (I take in evenings as it can interfere with iron)
-                    Iron (take in mornings)
-                    Vit C – 1000mg dose a day
-                    Probiotics
-                    Vit B complex supplement
-                    Vit B12 injection (always have taken these)
-                    Use disinfectant spray on my hands when at work or public places.
-                    I’m going to try track what I take and do and hopefully I will notice whether this has made a difference.
-                </div>
-            </div>
-        </div>
-
     </div>
+
+    <section>
+        <article class="row-fluid">
+            <div class="span6 articleGutter">
+                <img src="./Images/Story1_Image.jpg" />
+            </div>
+            <div class="span6 articleGutter articleBlurb" style="vertical-align:middle">
+                <h3>Article 1 Title</h3>
+                <p>
+                    We’re approaching winter.
+                    The leaves are slowly turning their autumn colours and there is already a slight chill in the air.
+                    I don’t mind winter too much, but since I’m on immune suppressed medicine most of the time for my Crohn’s that means I easily pick up any available bug.
+                    I’ve never had so many
+                    <br />
+                    <a href="#">Read More</a>
+                </p>
+            </div>
+        </article>
+        <article class="row-fluid">
+            <div class="span6 articleGutter">
+                <img src="./Images/Story2_Image.jpg" />
+            </div>
+            <div class="span6 articleGutter articleBlurb">
+                <h3>Article 2 Title</h3>
+                <p>
+                    We’re approaching winter.
+                    The leaves are slowly turning their autumn colours and there is already a slight chill in the air.
+                    I don’t mind winter too much, but since I’m on immune suppressed medicine most of the time for my Crohn’s that means I easily pick up any available bug.
+                    I’ve never had so many
+                    <br />
+                    <a href="#">Read More</a>
+                </p>
+            </div>
+        </article>
+    </section>
+       
 
     <script src="Scripts/jquery-1.9.1.js"></script>
     <script src="Scripts/bootstrap.js"></script>
